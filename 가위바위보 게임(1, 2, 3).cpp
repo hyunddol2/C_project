@@ -1,5 +1,7 @@
 /*가위바위보 게임(1, 2, 3)(2022.01.11)*/
 
+/*
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -25,7 +27,7 @@ int main(void) {
 			if (playerRsp == 0 || playerRsp == 1 || playerRsp == 2 || playerRsp == 3)
 				break;
 			printf("잘못 입력했습니다. 다시 입력해주세요.\n\n");
-		}
+		};
 
 		if (playerRsp == 0) break;	//게임 종료
 
@@ -46,5 +48,6 @@ int main(void) {
 	return 0;
 };
 
+*/
 
-// 추가할 수 있는 요소: 1) 1, 2, 3 대신 가위, 바위, 보로 입력 2) 승패무 횟수 카운팅 3) srand(time)의 한계- 초 단위가 바뀌기 전에 입력하면 연승을 거둘 수 있음.
+// 추가할 수 있는 요소: 1) 1, 2, 3 대신 가위, 바위, 보로 입력 2) 승패무 횟수 카운팅 3) srand(time)의 한계- 초 단위가 바뀌기 전에 입력하면 연승을 거둘 수 있음. 4) 사용자 입력 카운트 다운
